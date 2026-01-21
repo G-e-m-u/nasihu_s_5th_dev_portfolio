@@ -68,6 +68,13 @@ h3 {
   background-color: #c1121f;
 }
 
+#whats-halal, 
+#moren-halal, 
+#order-halal, 
+#see-halal {
+  scroll-margin-top: 19rem; /* Same as the header height */
+}
+
 #main {
   border-right: 0.3125rem solid #669bbc; /* 5px → 0.3125rem */
   border-left: 0.3125rem solid #669bbc; /* 5px → 0.3125rem */
@@ -219,6 +226,13 @@ body {
     height: 5rem; /* 70px → 4.375rem */
   }
 
+  #whats-halal, 
+  #moren-halal, 
+  #order-halal, 
+  #see-halal {
+  scroll-margin-top: 12.5rem; /* Same as the header height */
+}
+
   h1 {
     text-align: center;
   }
@@ -346,6 +360,13 @@ body {
     display: flex;
     flex-direction: row; 
   }
+
+  #whats-halal, 
+  #moren-halal, 
+  #order-halal, 
+  #see-halal {
+  scroll-margin-top: 12.5rem; /* Same as the header height */
+}
 
   h2 {
     font-size: 1.25rem; /* 20px */
