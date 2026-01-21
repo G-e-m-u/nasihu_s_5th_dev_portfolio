@@ -1,8 +1,6 @@
 body {
   background-color:#fdf0d5;
   padding-top: 15rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont,
-               "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
 }
 
 #header {
@@ -15,7 +13,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   border-radius: 0.9375rem; /* 15px → 0.9375rem */
-  font-family: Cursive;
+  font-family: 'Poppins', 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 3rem; /* 17px → 1.0625rem */
   position: fixed;   /* keeps it at the top */
@@ -30,14 +28,14 @@ h1 {
 }
 
 h2 {
-  font-family: Cursive;
+  font-family: 'Poppins', 'Roboto', sans-serif;
   color: #c1121f;
   font-size: 4rem; /* 34px → 2.125rem */
   text-align: center;
 }
 
 h3 {
-  font-family: Cursive;
+  font-family: 'Poppins', 'Roboto', sans-serif;
   color: #c1121f;
   font-size: 3rem; /* 20px → 1.25rem */
   text-align: center;
@@ -57,6 +55,8 @@ h3 {
   border-radius: 0.625rem 0.9375rem; /* 10px 15px → rem */
   padding: 0.4375rem; /* 7px → 0.4375rem */
   font-size: 1.5rem; /* 13px → 0.8125rem */
+  text-decoration: none;
+  color: #fdf0d5;
 }
 
 .nav-link:hover {
@@ -100,7 +100,7 @@ h3 {
 }
 
 .text {
-  font-family: Cursive;
+  font-family: 'Poppins', 'Roboto', sans-serif;
   color: #003049;
   font-size: 2rem; /* 16px → 1rem */
   text-align: justify;
@@ -156,7 +156,7 @@ h3 {
 }
 
 .more-text {
-  font-family: Cursive;
+  font-family: 'Poppins', 'Roboto', sans-serif;
   color: #003049;
   font-size: 1.5rem; /* 18px → 1.125rem */
   text-align: justify;
@@ -172,7 +172,7 @@ h3 {
 }
 
 .added-text {
-  font-family: Cursive;
+  font-family: 'Poppins', 'Roboto', sans-serif;
   color: #003049;
   font-size: 1.75rem; /* 28px → 1.75rem */
   text-align: center;
@@ -197,7 +197,7 @@ h3 {
 @media only screen and (max-width: 900px) {
 
 body {
-  padding-top: 17rem;
+  padding-top: 10rem;
 }
 
   #header {
@@ -209,7 +209,7 @@ body {
     justify-content: space-around;
     align-items: center;
     border-radius: 0.75rem; /* 12px → 0.75rem */
-    font-family: Cursive;
+    font-family: 'Poppins', 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1rem; /* 12px → 0.75rem */
   }
@@ -224,11 +224,14 @@ body {
   }
 
   .nav-link {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 0.125rem; /* 2px → 0.125rem */
     margin-right: 0;
     font-size: 0.97rem;
+  }
+
+  #nav-bar {
+    display: flex;
+    flex-direction: row; 
   }
 
   h2 {
@@ -318,7 +321,7 @@ body {
 @media only screen and (max-width: 600px) {
   
 body {
-  padding-top: 17rem;
+  padding-top: 10rem;
 }
 
   #header {
@@ -337,6 +340,11 @@ body {
     font-size: 0.75rem; /* 12px */
     padding: 0.25rem;
     margin-bottom: 0.125rem;
+  }
+
+  #nav-bar {
+    display: flex;
+    flex-direction: row; 
   }
 
   h2 {
