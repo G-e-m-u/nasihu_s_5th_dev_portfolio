@@ -75,7 +75,8 @@ h3 {
 #whats-halal, 
 #moren-halal, 
 #order-halal, 
-#see-halal {
+#see-halal,
+#contact-halal {
   scroll-margin-top: 19rem; /* Same as the header height */
 }
 
@@ -337,7 +338,8 @@ body {
   #whats-halal, 
   #moren-halal, 
   #order-halal, 
-  #see-halal {
+  #see-halal,
+  #contact-halal {
   scroll-margin-top: 12.5rem; /* Same as the header height */
 }
 
@@ -517,7 +519,8 @@ body {
   #whats-halal, 
   #moren-halal, 
   #order-halal, 
-  #see-halal {
+  #see-halal,
+  #contact-halal {
   scroll-margin-top: 12.5rem; /* Same as the header height */
 }
 
