@@ -84,7 +84,7 @@ h3 {
   border-right: 0.3125rem solid #669bbc; /* 5px → 0.3125rem */
   border-left: 0.3125rem solid #669bbc; /* 5px → 0.3125rem */
   border-radius: 0.4375rem; /* 7px → 0.4375rem */
-  padding: 0.625rem; /* 10px → 0.625rem */
+  padding: 0.3rem; /* 10px → 0.625rem */
 }
 
 .main-div1 {
